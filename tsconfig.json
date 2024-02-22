@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "jsx": "react-jsx",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "useDefineForClassFields": true,
+
+    // 路径提示
+    "baseUrl": "./",
+    "module": "ESNext",
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "resolveJsonModule": true,
+    "allowImportingTsExtensions": true,
+    "allowJs": false,
+    /* Linting */
+    "strict": false,
+    "noFallthroughCasesInSwitch": true,
+    //允许声明未使用
+    "noUnusedLocals": false,
+    "skipLibCheck": true,
+    "noUnusedParameters": true,
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    "esModuleInterop": false,
+    "forceConsistentCasingInFileNames": true
+  },
+  "references": [{ "path": "./tsconfig.node.json" }],
+  "include": ["src"]
+}
