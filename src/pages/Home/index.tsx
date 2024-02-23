@@ -1,4 +1,5 @@
 import style from "./index.module.scss";
+import {MainLayout} from '@/layouts'
 import { testHttp } from "@/api";
 import { Button, Badge } from "antd";
 const Home: React.FC = () => {
