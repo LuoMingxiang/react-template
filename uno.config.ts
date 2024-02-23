@@ -16,7 +16,6 @@ export default defineConfig({
   },
   safelist: [],
   presets: [
-    // presetUno({ prefix: "uno-" }),
     presetUno({ prefix: "uno-" }),
     presetAttributify(),
     presetIcons({

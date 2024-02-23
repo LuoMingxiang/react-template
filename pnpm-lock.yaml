@@ -37,6 +37,9 @@ devDependencies:
   '@antfu/eslint-config':
     specifier: ^2.6.4
     version: 2.6.4(@vue/compiler-sfc@3.4.19)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react-refresh@0.4.5)(eslint-plugin-react@7.33.2)(eslint@8.56.0)(typescript@5.3.3)
+  '@iconify-icon/react':
+    specifier: ^2.0.1
+    version: 2.0.1(react@18.2.0)
   '@types/react':
     specifier: ^18.2.56
     version: 18.2.57
@@ -888,6 +891,15 @@ packages:
 
   /@humanwhocodes/object-schema@2.0.2:
     resolution: {integrity: sha512-6EwiSjwWYP7pTckG6I5eyFANjPhmPjUX9JRLUSfNPC7FX7zK9gyZAfUEaECL6ALTpGX5AjnBq3C9XmVWPitNpw==}
+    dev: true
+
+  /@iconify-icon/react@2.0.1(react@18.2.0):
+    resolution: {integrity: sha512-1m6L2yNsSJ25k5baQRqNqh2J0w+91PwOn1WdBIR6ZTwxePbsZC8k3NNVc6m9BJObsIQdUlMA1NGj8el4tfbsVg==}
+    peerDependencies:
+      react: '>=16'
+    dependencies:
+      iconify-icon: 2.0.0
+      react: 18.2.0
     dev: true
 
   /@iconify/types@2.0.0:
@@ -3482,6 +3494,12 @@ packages:
       '@babel/runtime': 7.23.9
     dev: false
 
+  /iconify-icon@2.0.0:
+    resolution: {integrity: sha512-38ArOkxmyD9oDbJBkxaFpE6eZ0K3F9Sk+3x4mWGfjMJaxi3EKrix9Du4iWhgBFT3imKC4FJJE34ur2Rc7Xm+Uw==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
   /ignore@5.3.1:
     resolution: {integrity: sha512-5Fytz/IraMjqpwfd34ke28PTVMjZjJG2MPn5t7OE4eUCUNf8BAa7b5WUS9/Qvr6mwOQS7Mk6vdsMno5he+T8Xw==}
     engines: {node: '>= 4'}
@@ -4994,7 +5012,6 @@ packages:
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
-    dev: false
 
   /read-pkg-up@7.0.1:
     resolution: {integrity: sha512-zK0TB7Xd6JpCLmlLmufqykGE+/TlOePD6qKClNW7hHDKFh/J7/7gCWGR7joEQEW1bKq3a3yUZSObOoWLFQ4ohg==}

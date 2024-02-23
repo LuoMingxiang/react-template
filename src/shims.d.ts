@@ -1,4 +1,5 @@
 import * as React from "react";
+//unocss模块相关声明
 declare module "react" {
   interface HTMLAttributes<T> extends AriaAttributes, DOMAttributes<T> {
     flex?: boolean;
